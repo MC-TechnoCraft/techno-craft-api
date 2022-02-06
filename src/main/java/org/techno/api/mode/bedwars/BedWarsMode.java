@@ -5,11 +5,9 @@ import org.techno.api.mode.ServerMode;
 
 public interface BedWarsMode extends ServerMode {
 
-    @NotNull String getActiveServer();
+    @NotNull BedWarsMode.LocationType getCurrentLocation();
 
-    @NotNull ServerType getActiveServerType();
-
-    enum ServerType {
+    enum LocationType {
         LOBBY, WAITING, ARENA
     }
 

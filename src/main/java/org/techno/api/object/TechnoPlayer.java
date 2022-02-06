@@ -20,7 +20,19 @@ public interface TechnoPlayer extends SkyBlockProfileHolder, BedWarsProfileHolde
     @NotNull
     String getGroupName() throws InformationIsHiddenException;
 
+    boolean isCurrentlyOnline() throws InformationIsHiddenException;
+
+    @Nullable
+    String getGroupDisplayColor() throws InformationIsHiddenException;
+
     @Nullable
     ServerMode getCurrentMode() throws InformationIsHiddenException;
+
+    @Nullable
+    Discord getDiscord() throws InformationIsHiddenException;
+
+    default boolean isDiscordLinked() throws InformationIsHiddenException {
+        return getDiscord() != null;
+    }
 
 }

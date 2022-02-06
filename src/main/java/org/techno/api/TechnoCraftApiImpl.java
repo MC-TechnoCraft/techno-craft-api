@@ -8,7 +8,7 @@ import org.techno.api.object.TechnoPlayer;
 
 import java.util.UUID;
 
-final class TechnoCraftApiImpl implements TechnoCraftApi{
+final class TechnoCraftApiImpl implements TechnoCraftApi {
 
     private final String callerApiKey;
 
