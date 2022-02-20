@@ -2,12 +2,12 @@ package org.techno.api;
 
 public interface KDAHolder {
 
-    int getKills();
+  int kills();
 
-    int getDeaths();
+  int deaths();
 
-    int getAssistants();
+  int assistants();
 
-    double getKda();
+  double kda();
 
 }

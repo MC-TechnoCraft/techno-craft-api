@@ -4,18 +4,18 @@ import org.techno.api.KDAHolder;
 
 public interface BedWarsProfile extends KDAHolder {
 
-    int getWins();
+  int wins();
 
-    int getLosses();
+  int losses();
 
-    int getBrokenBedsCount();
+  int brokenBedsCount();
 
-    int getFinalKills();
+  int finalKills();
 
-    int getLevel();
+  int level();
 
-    long getCurrentExperience();
+  long currentExperience();
 
-    long getExperienceUntilNextLevel();
+  long experienceUntilNextLevel();
 
 }

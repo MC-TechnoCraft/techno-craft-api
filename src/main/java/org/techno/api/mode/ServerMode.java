@@ -4,12 +4,12 @@ import org.jetbrains.annotations.NotNull;
 
 public interface ServerMode {
 
-    @NotNull
-    String getName();
+  @NotNull
+  String name();
 
-    @NotNull
-    String getDescription();
+  @NotNull
+  String description();
 
-    int getCurrentOnline();
+  int currentOnline();
 
 }

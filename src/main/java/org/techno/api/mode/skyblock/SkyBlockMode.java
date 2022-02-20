@@ -5,10 +5,10 @@ import org.techno.api.mode.ServerMode;
 
 public interface SkyBlockMode extends ServerMode {
 
-    @NotNull SkyBlockMode.LocationType getCurrentLocation();
+  @NotNull SkyBlockMode.LocationType currentLocation();
 
-    enum LocationType {
-        ISLAND, LOBBY
-    }
+  enum LocationType {
+    ISLAND, LOBBY
+  }
 
 }

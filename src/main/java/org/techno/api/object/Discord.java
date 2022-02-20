@@ -4,6 +4,6 @@ import org.jetbrains.annotations.NotNull;
 
 public interface Discord {
 
-    @NotNull String getUser();
+  @NotNull String user();
 
 }

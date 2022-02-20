@@ -5,6 +5,6 @@ import org.techno.api.exception.InformationIsHiddenException;
 
 public interface BedWarsProfileHolder {
 
-    @NotNull BedWarsProfile getBedWarsProfile() throws InformationIsHiddenException;
+  @NotNull BedWarsProfile bedWarsProfile() throws InformationIsHiddenException;
 
 }

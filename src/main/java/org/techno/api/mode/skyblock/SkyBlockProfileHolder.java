@@ -5,7 +5,7 @@ import org.techno.api.exception.InformationIsHiddenException;
 
 public interface SkyBlockProfileHolder {
 
-    @NotNull
-    SkyBlockProfile getSkyBlockProfile() throws InformationIsHiddenException;
+  @NotNull
+  SkyBlockProfile skyBlockProfile() throws InformationIsHiddenException;
 
 }
