@@ -16,7 +16,7 @@ final TechnoPlayer player = api.player("<Someone UUID here>"); // or use #getPla
 
 // user contains few profiles for each mode,
 // currently there is 2 getters for BedWars and SkyBlock
-// TechnoPlayer#getBedWarsProfile() & TechnoPlayer#getSkyBlockProfile()
+// TechnoPlayer#bedWarsProfile() & TechnoPlayer#skyBlockProfile()
 
 // example usage
 final BedWarsProfile bedWars = player.bedWarsProfile();
